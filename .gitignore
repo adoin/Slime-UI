@@ -13,6 +13,8 @@ out/
 .temp
 .stylelintcache
 .eslintcache
-
+.vscode/*
+.cursor/*
+.idea/*
 yarn.lock
 package-lock.json
