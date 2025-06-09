@@ -1,16 +1,16 @@
 <template>
   <div class="demo-button">
-    <VButton>按钮</VButton>
-    <VButton type="primary">按钮</VButton>
-    <VButton type="success">按钮</VButton>
-    <VButton type="warning">按钮</VButton>
-    <VButton type="danger">按钮</VButton>
-    <VButton type="info">按钮</VButton>
+    <SButton>按钮</SButton>
+    <SButton type="primary">按钮</SButton>
+    <SButton type="success">按钮</SButton>
+    <SButton type="warning">按钮</SButton>
+    <SButton type="danger">按钮</SButton>
+    <SButton type="info">按钮</SButton>
   </div>
 </template>
 
 <script setup lang="ts">
-// import { VButton } from '@slime/ui';
+// import { SButton } from '@slime/ui';
 </script>
 
 <style scoped>

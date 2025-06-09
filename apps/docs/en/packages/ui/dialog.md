@@ -24,6 +24,6 @@ Basic dialog component.
 
 The dialog can be styled using the following class names:
 
-- `.v-dialog`: Main dialog container.
-- `.v-dialog__overlay`: Background overlay.
-- `.v-dialog__content`: Dialog content area.
+- `.s-dialog`: Main dialog container.
+- `.s-dialog__overlay`: Background overlay.
+- `.s-dialog__content`: Dialog content area.

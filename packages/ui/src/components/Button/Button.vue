@@ -1,9 +1,9 @@
 <template>
   <button
-    class="v-button"
+    class="s-button"
     :class="[
-      type ? `v-button--${type}` : '',
-      size ? `v-button--${size}` : '',
+      type ? `s-button--${type}` : '',
+      size ? `s-button--${size}` : '',
       {
         'is-round': round,
         'is-disabled': disabled,
@@ -20,7 +20,7 @@
 import type { ButtonEmits, ButtonProps } from './Button.types';
 
 defineOptions({
-  name: 'VButton',
+  name: 'SButton',
 });
 
 const {

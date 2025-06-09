@@ -12,8 +12,8 @@
 declare module 'vue' {
   // GlobalComponents for Volar
   export interface GlobalComponents {
-    VButton: (typeof import('@slime/ui'))['VButton'];
-    VDialog: (typeof import('@slime/ui'))['VDialog'];
+    SButton: (typeof import('@slime/ui'))['SButton'];
+    SDialog: (typeof import('@slime/ui'))['SDialog'];
   }
 }
 

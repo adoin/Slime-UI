@@ -56,19 +56,19 @@ app.mount('#app');
 
 ```vue
 <template>
-  <VButton @click="open = true">弹窗</VButton>
-  <VButton type="primary">按钮</VButton>
-  <VButton type="success">按钮</VButton>
-  <VButton type="warning">按钮</VButton>
-  <VButton type="danger">按钮</VButton>
-  <VButton type="info">按钮</VButton>
-  <VDialog v-model:open="open">
+  <SButton @click="open = true">弹窗</SButton>
+  <SButton type="primary">按钮</SButton>
+  <SButton type="success">按钮</SButton>
+  <SButton type="warning">按钮</SButton>
+  <SButton type="danger">按钮</SButton>
+  <SButton type="info">按钮</SButton>
+  <SDialog v-model:open="open">
     <div>弹窗测试2222</div>
-  </VDialog>
+  </SDialog>
 </template>
 
 <script setup lang="ts">
-import { VButton, VDialog } from '@slime/ui';
+import { SButton, SDialog } from '@slime/ui';
 import { ref } from 'vue';
 const open = ref(false);
 </script>

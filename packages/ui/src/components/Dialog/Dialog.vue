@@ -1,7 +1,7 @@
 <template>
-  <dialog v-if="open" class="v-dialog">
-    <div class="v-dialog__overlay" @click="close" />
-    <div class="v-dialog__content">
+  <dialog v-if="open" class="s-dialog">
+    <div class="s-dialog__overlay" @click="close" />
+    <div class="s-dialog__content">
       <slot />
     </div>
   </dialog>
@@ -11,7 +11,7 @@
 import type { DialogEmits, DialogProps } from './Dialog.types';
 
 defineOptions({
-  name: 'VDialog',
+  name: 'SDialog',
 });
 
 defineProps<DialogProps>();

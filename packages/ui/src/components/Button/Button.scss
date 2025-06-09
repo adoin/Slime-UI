@@ -1,6 +1,6 @@
 @use 'sass:color';
 
-.v-button {
+.s-button {
   $types: (
     primary: #409eff,
     success: #67c23a,
@@ -69,7 +69,7 @@
       }
     }
 
-    &.is-plain.v-button--#{$type} {
+    &.is-plain.s-button--#{$type} {
       color: $color;
       background: color.mix(#fff, $color, 90%);
       border-color: color.mix(#fff, $color, 60%);

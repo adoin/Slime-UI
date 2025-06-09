@@ -161,31 +161,31 @@ importers:
       '@commitlint/cli':
         specifier: 'catalog:'
         version: 19.7.1(@types/node@22.13.4)(typescript@5.7.3)
-      '@mylib/commitlint-config':
+      '@slime/commitlint-config':
         specifier: workspace:*
         version: link:packages/lint-configs/commitlint-config
-      '@mylib/directives':
+      '@slime/directives':
         specifier: workspace:*
         version: link:packages/directives
-      '@mylib/eslint-config':
+      '@slime/eslint-config':
         specifier: workspace:*
         version: link:packages/lint-configs/eslint-config
-      '@mylib/hooks':
+      '@slime/hooks':
         specifier: workspace:*
         version: link:packages/hooks
-      '@mylib/prettier-config':
+      '@slime/prettier-config':
         specifier: workspace:*
         version: link:packages/lint-configs/prettier-config
-      '@mylib/stylelint-config':
+      '@slime/stylelint-config':
         specifier: workspace:*
         version: link:packages/lint-configs/stylelint-config
-      '@mylib/typescript-config':
+      '@slime/typescript-config':
         specifier: workspace:*
         version: link:packages/lint-configs/typescript-config
-      '@mylib/ui':
+      '@slime/ui':
         specifier: workspace:*
         version: link:packages/ui
-      '@mylib/utils':
+      '@slime/utils':
         specifier: workspace:*
         version: link:packages/utils
       eslint:
@@ -221,19 +221,19 @@ importers:
 
   apps/docs:
     dependencies:
-      '@mylib/directives':
+      '@slime/directives':
         specifier: workspace:*
         version: link:../../packages/directives
-      '@mylib/hooks':
+      '@slime/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@mylib/typescript-config':
+      '@slime/typescript-config':
         specifier: workspace:*
         version: link:../../packages/lint-configs/typescript-config
-      '@mylib/ui':
+      '@slime/ui':
         specifier: workspace:*
         version: link:../../packages/ui
-      '@mylib/utils':
+      '@slime/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       vue:
@@ -303,15 +303,15 @@ importers:
 
   packages/directives:
     devDependencies:
-      '@mylib/typescript-config':
-        specifier: workspace:*
-        version: link:../lint-configs/typescript-config
       '@rollup/plugin-json':
         specifier: 'catalog:'
         version: 6.1.0(rollup@4.34.7)
       '@rollup/plugin-terser':
         specifier: 'catalog:'
         version: 0.4.4(rollup@4.34.7)
+      '@slime/typescript-config':
+        specifier: workspace:*
+        version: link:../lint-configs/typescript-config
       rollup:
         specifier: 'catalog:'
         version: 4.34.7
@@ -327,12 +327,12 @@ importers:
 
   packages/hooks:
     devDependencies:
-      '@mylib/typescript-config':
-        specifier: workspace:*
-        version: link:../lint-configs/typescript-config
       '@rollup/plugin-json':
         specifier: 'catalog:'
         version: 6.1.0(rollup@4.34.7)
+      '@slime/typescript-config':
+        specifier: workspace:*
+        version: link:../lint-configs/typescript-config
       rollup:
         specifier: 'catalog:'
         version: 4.34.7
@@ -407,7 +407,7 @@ importers:
 
   packages/ui:
     devDependencies:
-      '@mylib/typescript-config':
+      '@slime/typescript-config':
         specifier: workspace:*
         version: link:../lint-configs/typescript-config
       '@types/node':
@@ -437,12 +437,12 @@ importers:
 
   packages/utils:
     devDependencies:
-      '@mylib/typescript-config':
-        specifier: workspace:*
-        version: link:../lint-configs/typescript-config
       '@rollup/plugin-json':
         specifier: 'catalog:'
         version: 6.1.0(rollup@4.34.7)
+      '@slime/typescript-config':
+        specifier: workspace:*
+        version: link:../lint-configs/typescript-config
       rollup:
         specifier: 'catalog:'
         version: 4.34.7
@@ -458,19 +458,19 @@ importers:
       '@ant-design/icons-vue':
         specifier: 'catalog:'
         version: 7.0.1(vue@3.5.13(typescript@5.7.3))
-      '@mylib/directives':
+      '@slime/directives':
         specifier: workspace:*
         version: link:../packages/directives
-      '@mylib/hooks':
+      '@slime/hooks':
         specifier: workspace:*
         version: link:../packages/hooks
-      '@mylib/typescript-config':
+      '@slime/typescript-config':
         specifier: workspace:*
         version: link:../packages/lint-configs/typescript-config
-      '@mylib/ui':
+      '@slime/ui':
         specifier: workspace:*
         version: link:../packages/ui
-      '@mylib/utils':
+      '@slime/utils':
         specifier: workspace:*
         version: link:../packages/utils
       ant-design-vue:

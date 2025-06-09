@@ -1,12 +1,12 @@
 <template>
-  <VDialog v-model:open="open">
+  <SDialog v-model:open="open">
     <div>弹窗测试2222</div>
-  </VDialog>
+  </SDialog>
   <button @click="open = true">弹窗</button>
 </template>
 
 <script setup lang="ts">
-import { VDialog } from '@slime/ui';
+import { SDialog } from '@slime/ui';
 import { ref } from 'vue';
 const open = ref(false);
 </script>

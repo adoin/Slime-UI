@@ -4,7 +4,7 @@
   "description": "组件库模板说明文档",
   "main": "index.js",
   "scripts": {
-    "dev": "vitepress dev",
+    "dev": "vitepress dev --port 5678",
     "build": "rimraf .vitepress/dist && vitepress build",
     "preview": "vitepress preview",
     "clean": "rimraf .turbo node_modules .vitepress/dist .vitepress/cache .vitepress/.temp"

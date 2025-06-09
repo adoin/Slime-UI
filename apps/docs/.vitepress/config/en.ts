@@ -16,7 +16,7 @@ export const en = defineConfig({
         items: [
           {
             text: 'Changelog',
-            link: 'https://github.com/huangmingfu/vue3-turbo-component-lib-template/blob/master/CHANGELOG.md',
+            link: 'https://github.com/adoin/Slime-UI/blob/master/CHANGELOG.md',
           },
           // {
           //   text: 'Contribute',
@@ -50,8 +50,6 @@ export const en = defineConfig({
         items: [{ text: 'String Utils', link: 'en/packages/utils/string' }],
       },
     ],
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/huangmingfu/vue3-turbo-component-lib-template' },
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/adoin/Slime-UI' }],
   },
 });

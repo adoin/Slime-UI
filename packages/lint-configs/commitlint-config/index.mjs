@@ -6,6 +6,7 @@ export default {
       2, // 规则级别：错误
       'always', // 规则应用条件：始终检查
       [
+        'init', // 初始化
         'feat', // 新增功能
         'fix', // bug 修复
         'docs', // 文档变更
@@ -18,6 +19,9 @@ export default {
         'chore', // 不属于以上类型的其他类型（比如构建流程, 依赖管理）
         'revert', // 撤销之前的提交
         'types', // 类型相关
+        'release', // 发布
+        'merge', // 合并
+        'wip', // 开发中
       ],
     ],
   },

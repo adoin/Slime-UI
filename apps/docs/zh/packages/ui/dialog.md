@@ -24,6 +24,6 @@
 
 弹窗可以使用以下类名进行样式定制：
 
-- `.v-dialog`: 主弹窗容器。
-- `.v-dialog__overlay`: 背景遮罩。
-- `.v-dialog__content`: 弹窗内容区域。
+- `.s-dialog`: 主弹窗容器。
+- `.s-dialog__overlay`: 背景遮罩。
+- `.s-dialog__content`: 弹窗内容区域。
