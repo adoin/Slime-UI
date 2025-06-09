@@ -1,4 +1,4 @@
-# @mylib/hooks
+# @slime/hooks
 
 ## 1.0.0
 

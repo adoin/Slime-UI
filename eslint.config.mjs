@@ -1,1 +1,1 @@
-export { default } from '@mylib/eslint-config';
+export { default } from '@slime/eslint-config';

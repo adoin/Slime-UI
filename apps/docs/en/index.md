@@ -1,12 +1,12 @@
 ---
 layout: home
 hero:
-  name: mylib-template
+  name: slime-template
   text: Component Library and Utility Template
   tagline: A simple, powerful, and efficient Vue3 component library and utility template to help you quickly build your own or enterprise-level component library.
   image:
     src: /logo.png
-    alt: mylib-template
+    alt: slime-template
   actions:
     - theme: brand
       text: Get Started

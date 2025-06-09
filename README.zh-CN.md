@@ -13,7 +13,7 @@
 - 🎯 完整的类型提示，提升开发体验
 - 🛠️ 丰富的工具函数和 Hooks，提高开发效率
 - 🔄 支持热更新，提升开发体验
-- 🔧 配备一键替换包名脚本，可一键替换 @mylib，更名为属于自己的包名
+- 🔧 配备一键替换包名脚本，可一键替换 @slime，更名为属于自己的包名
 - ⚡️ 基于 Vite/Rollup 构建 ESM 和 CJS 产物
 - ❤️ 配备两种打包模式，gulp + rollup统一打包或者每个子包的 rollup/vite 单独打包，可由开发者根据喜好自主选择
 - 📝 changeset 管理多包的版本和发布
@@ -37,10 +37,10 @@
 
 ```bash
 "dev": "turbo run dev", // 启动所有包的开发环境
-"dev:docs": "pnpm -F @mylib/docs run dev", // 启动文档应用
-"dev:play": "pnpm -F @mylib/playground run dev", // 启动演练场
+"dev:docs": "pnpm -F @slime/docs run dev", // 启动文档应用
+"dev:play": "pnpm -F @slime/playground run dev", // 启动演练场
 "build": "turbo run build", // 构建所有包
-"build:docs": "pnpm -F @mylib/docs run build", // 构建文档应用
+"build:docs": "pnpm -F @slime/docs run build", // 构建文档应用
 "build:gulp": "gulp -f build/gulpfile.cjs",// 使用gulp管理的统一打包脚本
 "format": "prettier --write \"**/*.{js,jsx,ts,tsx,mjs,mts,md,vue}\"", // 格式化所有包的代码
 "clean": "turbo run clean --continue && rimraf .turbo dist && rm -rf node_modules", // 清理所有包
@@ -49,14 +49,14 @@
 "preinstall": "npx only-allow pnpm", // 确保使用 pnpm 安装依赖
 "postinstall": "turbo run build",// 安装依赖后，构建所有包，确保项目成功运行
 "prepare": "husky install", // 安装 Husky 钩子
-"rename-pkg": "bash ./scripts/rename-package.sh" // 一键重命名包，如：@mylib -> @vue3-lib
+"rename-pkg": "bash ./scripts/rename-package.sh" // 一键重命名包，如：@slime -> @vue3-lib
 ```
 
 ## 🚀 快速开始
 
 ```bash
-# 以下请替换为自己的包名，@mylib 可以通过 rename-pkg 命令，一键更改为属于自己的包名，如 pnpm rename-pkg "@mylib" "@vue3-lib"
-pnpm add @mylib/ui @mylib/utils @mylib/hooks @mylib/directives
+# 以下请替换为自己的包名，@slime 可以通过 rename-pkg 命令，一键更改为属于自己的包名，如 pnpm rename-pkg "@slime" "@vue3-lib"
+pnpm add @slime/ui @slime/utils @slime/hooks @slime/directives
 
 # 演示安装：
 pnpm add @hmflib/ui @hmflib/utils @hmflib/hooks @hmflib/directives

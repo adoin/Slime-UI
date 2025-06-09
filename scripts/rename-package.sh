@@ -2,12 +2,12 @@
 
 # 批量替换包名脚本
 # 使用：pnpm run rename-pkg old-name new-name
-# 示例：pnpm rename-pkg "@mylib" "@vue3-lib"
+# 示例：pnpm rename-pkg "@slime" "@vue3-lib"
 
 # 检查参数
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 old-name new-name"
-    echo "Example: $0 @mylib @vue3-lib"
+    echo "Example: $0 @slime @vue3-lib"
     exit 1
 fi
 

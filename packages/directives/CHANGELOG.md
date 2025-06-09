@@ -1,4 +1,4 @@
-# @mylib/directives
+# @slime/directives
 
 ## 1.0.0
 

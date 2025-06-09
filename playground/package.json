@@ -1,5 +1,5 @@
 {
-  "name": "@mylib/playground",
+  "name": "@slime/playground",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "@ant-design/icons-vue": "catalog:",
-    "@mylib/directives": "workspace:*",
-    "@mylib/hooks": "workspace:*",
-    "@mylib/typescript-config": "workspace:*",
-    "@mylib/ui": "workspace:*",
-    "@mylib/utils": "workspace:*",
+    "@slime/directives": "workspace:*",
+    "@slime/hooks": "workspace:*",
+    "@slime/typescript-config": "workspace:*",
+    "@slime/ui": "workspace:*",
+    "@slime/utils": "workspace:*",
     "ant-design-vue": "catalog:",
     "vue": "catalog:",
     "vue-router": "catalog:"

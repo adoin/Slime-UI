@@ -1,27 +1,27 @@
 {
   "folders": [
     {
-      "name": "@mylib/docs",
+      "name": "@slime/docs",
       "path": "apps/docs",
     },
     {
-      "name": "@mylib/playground",
+      "name": "@slime/playground",
       "path": "playground",
     },
     {
-      "name": "@mylib/utils",
+      "name": "@slime/utils",
       "path": "packages/utils",
     },
     {
-      "name": "@mylib/ui",
+      "name": "@slime/ui",
       "path": "packages/ui",
     },
     {
-      "name": "@mylib/hooks",
+      "name": "@slime/hooks",
       "path": "packages/hooks",
     },
     {
-      "name": "@mylib/directives",
+      "name": "@slime/directives",
       "path": "packages/directives",
     },
   ],

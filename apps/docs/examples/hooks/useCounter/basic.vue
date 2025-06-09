@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-import { useCounter } from '@mylib/hooks';
+import { useCounter } from '@slime/hooks';
 
 const { count, increment, decrement } = useCounter();
 </script>

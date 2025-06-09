@@ -1,4 +1,4 @@
-# @mylib/utils
+# @slime/utils
 
 ## 1.0.0
 

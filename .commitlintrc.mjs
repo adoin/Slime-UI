@@ -1,1 +1,1 @@
-export { default } from '@mylib/commitlint-config';
+export { default } from '@slime/commitlint-config';

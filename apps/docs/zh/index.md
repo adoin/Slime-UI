@@ -1,12 +1,12 @@
 ---
 layout: home
 hero:
-  name: mylib-template
+  name: slime-template
   text: 组件库和工具集模板
   tagline: 简单、强大、高效的 Vue3 组件库和工具集模板，帮助快速搭建属于自己/企业级的组件库。
   image:
     src: /logo.png
-    alt: mylib-template
+    alt: slime-template
   actions:
     - theme: brand
       text: 开始使用

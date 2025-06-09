@@ -2,7 +2,7 @@
 
 ## Introduction
 
-mylib-template is a component library and toolkit template project based on Vue3, consisting of the following parts:
+slime-template is a component library and toolkit template project based on Vue3, consisting of the following parts:
 
 - UI Component Library: Provides commonly used UI components
 - Utility Functions: Offers common utility functions
@@ -16,19 +16,19 @@ Install using a package manager:
 ::: code-group
 
 ```bash [npm]
-npm install @mylib/ui @mylib/utils @mylib/hooks @mylib/directives
+npm install @slime/ui @slime/utils @slime/hooks @slime/directives
 ```
 
 ```bash [yarn]
-yarn add @mylib/ui @mylib/utils @mylib/hooks @mylib/directives
+yarn add @slime/ui @slime/utils @slime/hooks @slime/directives
 ```
 
 ```bash [pnpm]
-pnpm add @mylib/ui @mylib/utils @mylib/hooks @mylib/directives
+pnpm add @slime/ui @slime/utils @slime/hooks @slime/directives
 ```
 
 ```bash [bun]
-bun add @mylib/ui @mylib/utils @mylib/hooks @mylib/directives
+bun add @slime/ui @slime/utils @slime/hooks @slime/directives
 ```
 
 :::
@@ -40,16 +40,16 @@ bun add @mylib/ui @mylib/utils @mylib/hooks @mylib/directives
 ```ts
 // Global import
 import { createApp } from 'vue';
-import UI from '@mylib/ui';
-import '@mylib/ui/style.css';
+import UI from '@slime/ui';
+import '@slime/ui/style.css';
 const app = createApp(App);
 app.use(UI);
 // Additionally, add the following configuration to tsconfig.json for type hints:
-// "types": ["@mylib/ui/global.d.ts"]
+// "types": ["@slime/ui/global.d.ts"]
 
 // Import on demand
-import { Button } from '@mylib/ui';
-import '@mylib/ui/style.css';
+import { Button } from '@slime/ui';
+import '@slime/ui/style.css';
 const app = createApp(App);
 app.use(Button);
 ```
@@ -57,25 +57,25 @@ app.use(Button);
 ### Utility Functions
 
 ```ts
-import { isString } from '@mylib/utils';
+import { isString } from '@slime/utils';
 console.log(isString('hello')); // true
 ```
 
 ### Hooks
 
 ```ts
-import { useCounter } from '@mylib/hooks';
+import { useCounter } from '@slime/hooks';
 const { count, increment, decrement } = useCounter();
 ```
 
 ### Directives
 
 ```ts
-import { vFocus } from '@mylib/directives';
+import { vFocus } from '@slime/directives';
 // Global import
 app.directive('focus', vFocus);
 
 // Import on demand
-import { vFocus } from '@mylib/directives';
+import { vFocus } from '@slime/directives';
 app.directive('focus', vFocus);
 ```

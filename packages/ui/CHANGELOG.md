@@ -1,4 +1,4 @@
-# @mylib/ui
+# @slime/ui
 
 ## 1.0.0
 

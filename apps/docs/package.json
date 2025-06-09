@@ -1,5 +1,5 @@
 {
-  "name": "@mylib/docs",
+  "name": "@slime/docs",
   "version": "1.0.0",
   "description": "组件库模板说明文档",
   "main": "index.js",
@@ -13,11 +13,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@mylib/directives": "workspace:*",
-    "@mylib/hooks": "workspace:*",
-    "@mylib/typescript-config": "workspace:*",
-    "@mylib/ui": "workspace:*",
-    "@mylib/utils": "workspace:*",
+    "@slime/directives": "workspace:*",
+    "@slime/hooks": "workspace:*",
+    "@slime/typescript-config": "workspace:*",
+    "@slime/ui": "workspace:*",
+    "@slime/utils": "workspace:*",
     "vue": "catalog:"
   },
   "devDependencies": {

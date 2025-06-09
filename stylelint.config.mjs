@@ -1,4 +1,4 @@
 export default {
   root: true,
-  extends: '@mylib/stylelint-config',
+  extends: '@slime/stylelint-config',
 };
